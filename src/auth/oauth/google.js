@@ -3,7 +3,7 @@
 const superagent = require('superagent');
 const Users = require('../users-model.js');
 
-const API = proccess.env.API || 'http://localhost:3000';
+const API = process.env.API || 'http://localhost:3000';
 const GTS = 'https://www.googleapis.com/oauth2/v4/token';
 const SERVICE = 'https://www.googleapis.com/plus/v1/people/me/openIdConnect';
 

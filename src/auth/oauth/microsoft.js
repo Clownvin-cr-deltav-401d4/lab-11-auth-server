@@ -3,7 +3,7 @@
 const superagent = require('superagent');
 const Users = require('../users-model.js');
 
-const API = proccess.env.API || 'http://localhost:3000';
+const API = process.env.API || 'http://localhost:3000';
 const GTS = 'https://login.microsoftonline.com/common/oauth2/v2.0/token';
 const SERVICE = 'https://graph.microsoft.com/v1.0/me';
 
