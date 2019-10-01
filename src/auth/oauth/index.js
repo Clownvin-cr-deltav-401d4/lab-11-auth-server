@@ -1,7 +1,9 @@
 const google = require('./google');
+const microsoft = require('./microsoft');
 
 const providers = {
   google,
+  microsoft
 };
 
 module.exports = async (req) => {
